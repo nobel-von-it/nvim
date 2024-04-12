@@ -4,7 +4,7 @@ local opt = vim.opt
 opt.number = true
 opt.relativenumber = true
 
--- save to unix clipboard by default
+-- save to clipboard by default
 -- opt.clipboard = 'unnamedplus'
 
 -- tabs width
@@ -14,4 +14,8 @@ opt.shiftwidth = 4
 -- save indent length
 opt.breakindent = true
 
+-- something for c
 opt.cin = true
+
+-- K command
+opt.kp = ""
