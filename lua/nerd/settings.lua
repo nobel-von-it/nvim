@@ -17,5 +17,9 @@ opt.breakindent = true
 -- something for c
 opt.cin = true
 
--- K command
-opt.kp = ""
+-- Display tabs and whitespace
+opt.list = true
+
+opt.timeoutlen = 300
+
+opt.scrolloff = 10

@@ -3,7 +3,7 @@ return {
 	config = function()
 		-- Setup language servers.
 		local lspconfig = require('lspconfig')
-		local lspservers = {'rust_analyzer', 'pyright', 'tsserver'}
+		local lspservers = {'lua_ls', 'rust_analyzer', 'pyright', 'tsserver'}
 		local root_dir = function()
 			return vim.fn.getcwd()
 		end
